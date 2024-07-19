@@ -6,7 +6,8 @@ import img3 from '../../assets/Image3.png'
 
 function Landing() {
   return (
-    <div class='landing-container'>
+    <div className='landing-container'>
+    <div class='landing-flex'>
         <div class='landing-text'>
             <h1>Advertising Gen-Z Style</h1>
             <p>
@@ -27,6 +28,15 @@ function Landing() {
             </div>
             
         </div>
+      
+    </div>
+    <div className="landing-footer">
+      <div className="footer-left">
+        <h1>Lorem</h1>
+        <h2>Lorem, ipsum dolor.</h2>
+      </div>
+      <div className='footer-right'><p>Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et, deserunt.</p></div>
+    </div>
     </div>
   )
 }

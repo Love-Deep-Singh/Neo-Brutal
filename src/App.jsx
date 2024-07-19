@@ -1,9 +1,11 @@
-import Hero from './Components/hero/Hero'
+import About from './Pages/About/About'
+import Hero from './Pages/hero/Hero'
 function App() {
   return (
    <>
   
    <Hero/>
+   <About/>
 
    </>
   )
